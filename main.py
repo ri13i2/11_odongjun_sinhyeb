@@ -69,7 +69,7 @@ def send_daily_report():
         
     message = (
         f"{today_str} 정산\n\n"
-        f"[신협 오동진]\n"
+        f"[신협 오동준]\n"
         f"입금액 : {income:,}원\n"
         f"출금액 : {data['expense']:,}원\n\n"
         f"수수료 : {fee:,}원\n\n"
